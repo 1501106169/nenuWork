@@ -1,1 +1,2 @@
 # nenuWork
+# word requency statistics
