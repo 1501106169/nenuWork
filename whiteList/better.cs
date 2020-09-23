@@ -34,7 +34,7 @@ namespace foo
                     //Console.WriteLine(temp);
                     str += temp.ToString() + "\n";
             }
-
+	    Console.Write(str);
             DateTime afterDT = System.DateTime.Now;
             TimeSpan ts = afterDT.Subtract(beforDT);
             Console.WriteLine("DateTime: {0}ms.", ts.TotalMilliseconds);
